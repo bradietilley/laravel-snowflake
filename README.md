@@ -1,5 +1,9 @@
 # Laravel Snowflake
 
+**This package has been merged into https://github.com/bradietilley/php-snowflake**
+
+---
+
 A Laravel wrapper of [PHP Snowflake](https://github.com/bradietilley/php-snowflake) to provide a simple, opinionated implementation of Snowflake IDs for your eloquent models.
 
 ![Static Analysis](https://github.com/bradietilley/laravel-snowflake/actions/workflows/static.yml/badge.svg)
@@ -12,6 +16,8 @@ A Laravel wrapper of [PHP Snowflake](https://github.com/bradietilley/php-snowfla
 The laravel-snowflake package provides a seamless way to generate unique, time-ordered, distributed IDs within your Laravel application. Unlike traditional auto-incrementing IDs, Snowflake IDs offer several advantages: they eliminate ID collisions across distributed systems, enhance horizontal scalability, and prevent predictable sequential exposure of database records. Compared to UUIDs and ULIDs, Snowflake IDs are shorter, visually appealing, and easier to write out, making them ideal for public identifiers. This package integrates smoothly with Laravel, offering microsecond precision while ensuring high-performance, conflict-free ID generation across multiple clusters and workers. 🚀
 
 ## Installation
+
+**This package has been merged into https://github.com/bradietilley/php-snowflake**
 
 ```
 composer require bradietilley/laravel-snowflake
